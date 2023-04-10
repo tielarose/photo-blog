@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 30%;
+  margin: 1em 0;
+}
+
+nav {
+  width: 30%;
+  margin-left: calc(10% / 6);
+  margin-bottom: calc(10% / 6);
+  border-bottom: 2px solid #f1f1f1;
+  padding: 1em 0;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+}
